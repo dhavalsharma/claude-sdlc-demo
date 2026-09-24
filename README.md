@@ -31,6 +31,12 @@ Prerequisites:
 - Node 20 or newer, git, and [Claude Code](https://claude.com/claude-code)
 - For GitHub mode, also: `gh auth login` and `vercel login`
 
+Get the plugin (once):
+```bash
+git clone https://github.com/dhavalsharma/claude-sdlc-demo.git ~/claude-sdlc-demo
+```
+
+Start each demo from a new, empty folder. The project is created in the current directory:
 ```bash
 mkdir library-finder
 ```
@@ -38,7 +44,7 @@ mkdir library-finder
 cd library-finder
 ```
 ```bash
-claude --plugin-dir /path/to/lifecycle
+claude --plugin-dir ~/claude-sdlc-demo
 ```
 
 Then, inside Claude Code:
@@ -110,7 +116,7 @@ Built-in feedback loops:
 
 ## How it works
 ```
-lifecycle/
+claude-sdlc-demo/
 ├── .claude-plugin/plugin.json   plugin manifest (name: sdlc)
 ├── commands/                    /sdlc:* slash commands (the orchestrator)
 ├── agents/                      7 role agents (sdlc:product-manager, …)
