@@ -1,0 +1,8 @@
+{
+  "name": "sdlc",
+  "displayName": "SDLC Lifecycle Demo",
+  "description": "Turn an idea into a deployed web app while role-based agents (PM, Architect, Dev, QA, Reviewer, DevOps, SRE) walk it through every SDLC phase, with quality gates, chaos events, GitHub and Vercel, and a live dashboard.",
+  "version": "0.1.0",
+  "author": { "name": "Dhaval" },
+  "keywords": ["sdlc", "education", "devops", "agents", "demo"]
+}
